@@ -1,0 +1,85 @@
+/* Header styling */
+header .navbar{
+    background-color: #161a1d !important;
+    color:#f5f3f4;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+/* Set a background color and font for the whole page */
+body {
+    background-color: #dee2e6;
+    font-family:Georgia, 'Times New Roman', Times, serif; /* Change font */
+}
+
+.title-container {
+    background-color: #161a1d; /* Black background */
+    margin: 15px auto; /* Center it with margin */
+    max-width: 500px; /* Limit the maximum width */
+    text-align: center; /* Center align the text inside the container */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.title-container h1 {
+    color: #f5f3f4; 
+    font-size: 2.5rem; /* Increase font size */
+    text-align: center; /* Center align the title */
+    margin-bottom: 20px; /* Space below the title */
+    text-transform: uppercase; /* Make the title uppercase */
+    letter-spacing: 1px; /* Add some spacing between letters */
+    font-weight: bold; /* Make the title bold */
+    text-shadow: 1px 1px 2px; /* Subtle shadow for depth */
+}
+
+/* Subtitle styling */
+#subtitle {
+    margin: 20px;
+    font-size: 1.2rem;
+    color: #f5f3f4; /* Darker gray for subtitle */
+    text-align: center;
+}
+
+.subtitle-container {
+    background-color: #161a1d; /* Light gray background for the container */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 20px; /* Padding around the text */
+    margin: 20px auto; /* Center it with margin */
+    max-width: 800px; /* Limit the maximum width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Card styles */
+.card {
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 0.5rem; /* Rounded corners */
+    color:#f5f3f4;
+    background-color: #161a1d; /* White background for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth scaling and shadow on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #161a1d; /* Dark footer */
+    color: white; /* White text in footer */
+    padding: 10px 0;
+}
+
+footer a {
+    color: #f5f3f4; /* Light color for footer links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.mb-1 {
+    color: #f5f3f4;
+    text-decoration: underline;
+}
+

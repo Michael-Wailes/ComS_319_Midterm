@@ -1,0 +1,202 @@
+{
+    "parts": 
+    [
+        {
+            "type": "CPU",
+            "url": "https://images.unsplash.com/photo-1592664474496-8f2c35acd655?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "data": "CPUparts"
+        },
+        {
+            "type": "GPU",
+            "url": "https://images.pexels.com/photos/4573596/pexels-photo-4573596.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "data": "GPUparts"
+        },
+        {
+            "type": "Motherboard",
+            "url": "https://images.pexels.com/photos/159220/printed-circuit-board-print-plate-via-macro-159220.jpeg",
+            "data": "Motherboardparts"
+        },
+        {
+            "type": "DRAM",
+            "url": "https://images.pexels.com/photos/6636474/pexels-photo-6636474.jpeg",
+            "data": "DRAMparts"
+        },
+        {
+            "type": "PSU",
+            "url": "https://cdn.pixabay.com/photo/2020/05/23/13/04/power-5209513_1280.jpg",
+            "data": "PSUparts"
+        }
+    ],
+    "CPUparts": 
+    [
+        {
+            "name": "Intel Core i9-11900K",
+            "url": "./images/CPU/intelCoreI9.jpg",
+            "price": "$450",
+            "datePosted": "2024-10-15",
+            "poster": "TechParts Inc.",
+            "description": "8-Core 16-Thread CPU with a base clock of 3.5 GHz, boost clock up to 5.3 GHz, and PCIe 4.0 support. Ideal for high-performance gaming and creative workloads."
+        },
+        {
+            "name": "AMD Ryzen 9 5900X",
+            "url": "./images/CPU/AMDRyzen9_5900x.jpg",
+            "price": "$399",
+            "datePosted": "2024-09-20",
+            "poster": "BuildIt PC",
+            "description": "12-Core, 24-Thread CPU with a base clock of 3.7 GHz and boost clock up to 4.8 GHz. Perfect for gaming, streaming, and multitasking with advanced 7nm architecture."
+        },
+        {
+            "name": "Intel Core i5-12600K",
+            "url": "./images/CPU/IntelCoreI5.jpg",
+            "price": "$275",
+            "datePosted": "2024-08-30",
+            "poster": "TechWare LLC",
+            "description": "10-Core 16-Thread processor with hybrid architecture, offering both performance and efficiency cores. Ideal for mid-range gaming and productivity."
+        },
+        {
+            "name": "AMD Ryzen 5 5600X",
+            "url": "./images/CPU/AMDRyzen5.jpg",
+            "price": "$199",
+            "datePosted": "2024-07-25",
+            "poster": "CPU Solutions",
+            "description": "6-Core 12-Thread processor with a base clock of 3.7 GHz and boost clock up to 4.6 GHz. A great choice for gamers and content creators looking for a budget-friendly option."
+        }
+    ],
+    "GPUparts": [
+        {
+            "name": "NVIDIA GeForce RTX 3080",
+            "url": "./images/GPU/geforce-rtx-3080.jpg",
+            "price": "$699",
+            "datePosted": "2024-10-10",
+            "poster": "BestGraphics Ltd.",
+            "description": "High-performance GPU with 10GB GDDR6X memory, suitable for 4K gaming and professional rendering workloads."
+        },
+        {
+            "name": "AMD Radeon RX 6800 XT",
+            "url": "./images/GPU/RadeonRX6800XT.png",
+            "price": "$649",
+            "datePosted": "2024-09-25",
+            "poster": "PC Builders",
+            "description": "16GB GDDR6 memory, designed for 1440p and 4K gaming with excellent ray tracing support."
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "url": "./images/GPU/geforceRTX3060.jpg",
+            "price": "$349",
+            "datePosted": "2024-08-15",
+            "poster": "GPU Store",
+            "description": "Mid-range gaming GPU with 12GB GDDR6 memory, ideal for 1080p gaming at high settings."
+        },
+        {
+            "name": "AMD Radeon RX 6700 XT",
+            "url": "./images/GPU/RadeonRX6700XT.jpg",
+            "price": "$479",
+            "datePosted": "2024-07-30",
+            "poster": "PartsWorld",
+            "description": "12GB GDDR6 memory, best for 1440p gaming and creative workloads with solid performance."
+        }
+    ],
+    "Motherboardparts": [
+        {
+            "name": "ASUS ROG Strix Z590-E",
+            "url": "https://dlcdnwebimgs.asus.com/gain/6F6281D9-75F5-48A9-AF2C-9501C3C52EB5/w717/h525",
+            "price": "$349",
+            "datePosted": "2024-10-05",
+            "poster": "MotherboardsPlus",
+            "description": "ATX motherboard for Intel 10th and 11th Gen CPUs, with PCIe 4.0, WiFi 6, and robust cooling options."
+        },
+        {
+            "name": "MSI MAG B550 TOMAHAWK",
+            "url": "https://storage-asset.msi.com/global/picture/image/feature/mb/B550/MAG/TOMAHAWK/b550-TOMAHAWK-lighting_img.jpg",
+            "price": "$179",
+            "datePosted": "2024-09-12",
+            "poster": "TechWare LLC",
+            "description": "AMD B550 chipset for Ryzen 3000 and 5000 series CPUs, featuring PCIe 4.0 and advanced thermal design."
+        },
+        {
+            "name": "Gigabyte Z690 AORUS Master",
+            "url": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1976/innergigabyteimages/box.png",
+            "price": "$479",
+            "datePosted": "2024-08-28",
+            "poster": "BuildIt PC",
+            "description": "Z690 motherboard supporting Intel 12th Gen CPUs, DDR5, PCIe 5.0, and 10GbE LAN for extreme performance."
+        },
+        {
+            "name": "ASRock B450M Pro4",
+            "url": "https://www.asrock.com/mb/photo/B450M%20Pro4(L1).png",
+            "price": "$99",
+            "datePosted": "2024-07-10",
+            "poster": "BudgetTech Solutions",
+            "description": "Micro-ATX board for AMD Ryzen CPUs, offering solid features and performance at an affordable price."
+        }
+    ],
+    "DRAMparts": [
+        {
+            "name": "Corsair Vengeance RGB Pro 32GB",
+            "url": "https://assets.corsair.com/image/upload/f_auto,q_auto/v1/akamai/pdp/vengeance-rgb-pro/Content/Vengeance_RGB_Pro_PDP_Black_04.png",
+            "price": "$169",
+            "datePosted": "2024-10-12",
+            "poster": "MemoryMasters",
+            "description": "32GB (2x16GB) DDR4-3200 memory kit with RGB lighting, ideal for high-performance gaming and multitasking."
+        },
+        {
+            "name": "G.Skill Trident Z Neo 16GB",
+            "url": "https://www.gskill.com/_upload/images/1907081753290.png",
+            "price": "$99",
+            "datePosted": "2024-09-18",
+            "poster": "PC Memory Shop",
+            "description": "16GB (2x8GB) DDR4-3600 memory kit optimized for AMD Ryzen systems, featuring a sleek design and RGB."
+        },
+        {
+            "name": "Kingston HyperX Fury 8GB",
+            "url": "https://media.kingston.com/kingston/features/ktc-feature-image-fury-beast-rgb-black-ddr4-lg.jpg",
+            "price": "$49",
+            "datePosted": "2024-08-05",
+            "poster": "RAM World",
+            "description": "8GB DDR4-2666 memory for budget builds, offering reliable performance for everyday tasks and light gaming."
+        },
+        {
+            "name": "Patriot Viper Steel 16GB",
+            "url": "https://media.pangoly.com/img/5/b/6/8/5b68f1d5-d59d-406e-9d37-83e32cc91d37.jpg",
+            "price": "$89",
+            "datePosted": "2024-07-22",
+            "poster": "Affordable Memory",
+            "description": "16GB (2x8GB) DDR4-3200 performance memory kit with a sleek design for gaming and content creation."
+        }
+    ],
+    "PSUparts": [
+        {
+            "name": "EVGA SuperNOVA 850 G5",
+            "url": "https://images.evga.com/products/gallery/png/220-G5-0850-X1_LG_1.png",
+            "price": "$129",
+            "datePosted": "2024-10-08",
+            "poster": "PowerSupplies Pro",
+            "description": "850W 80+ Gold certified fully modular power supply, designed for high-performance builds with stable power delivery."
+        },
+        {
+            "name": "Corsair RM750x",
+            "url": "https://assets.corsair.com/image/upload/c_pad,q_85,h_1100,w_1100,f_auto/products/Power-Supply-Units/CP-9020179-NA/Gallery/RM750x_PSU_01.webp",
+            "price": "$109",
+            "datePosted": "2024-09-16",
+            "poster": "PC Builders",
+            "description": "750W 80+ Gold certified modular PSU, offering reliable power efficiency and a quiet fan for gaming and workstation setups."
+        },
+        {
+            "name": "Seasonic FOCUS GX-650",
+            "url": "https://voltapc.sg/wp-content/uploads/2023/02/focus-px-gx-internal-with-cover-3.jpg",
+            "price": "$99",
+            "datePosted": "2024-08-20",
+            "poster": "PowerHouse Electronics",
+            "description": "650W 80+ Gold certified fully modular power supply with compact size and superior performance for mid-range builds."
+        },
+        {
+            "name": "Cooler Master MWE 550 Bronze",
+            "url": "https://a.storyblok.com/f/281110/7d0e1db675/0524_91.png/m/960x0/smart",
+            "price": "$59",
+            "datePosted": "2024-07-14",
+            "poster": "BudgetBuilds",
+            "description": "550W 80+ Bronze certified power supply, offering affordability and solid power efficiency for entry-level builds."
+        }
+    ]
+    
+}

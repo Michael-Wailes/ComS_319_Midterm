@@ -1,0 +1,65 @@
+header .navbar{
+    background-color: #161a1d !important;
+    color:#f5f3f4;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #dee2e6;
+    font-family:Georgia, 'Times New Roman', Times, serif; /* Change font */
+}
+
+.partNameContainer {
+    color:#f5f3f4;
+    text-align:center;
+    font-size: 2.5rem; /* Increase font size */
+    text-shadow: 1px 1px 2px; /* Subtle shadow for depth */
+    font-weight: bold; /* Make the title bold */
+    background-color: #161a1d; /* Light gray background for the container */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 20px; /* Padding around the text */
+    margin: 20px auto; /* Center it with margin */
+    max-width: 500px; /* Limit the maximum width */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.partContainer {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center items */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Add padding */
+}
+
+.card {
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 0.5rem; /* Rounded corners */
+    color:#f5f3f4;
+    background-color: #161a1d; /* White background for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth scaling and shadow on hover */
+}
+
+footer {
+    background-color: #161a1d; 
+    color: #f5f3f4; 
+}
+
+footer a {
+    color: #f5f3f4; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+.mb-1 {
+    color: #f5f3f4;
+    text-decoration: underline;
+}
+
+.custom-image {
+    max-width: auto; /* Adjust as needed */
+    max-height: 150px; /* Limit height for uniformity */
+    object-fit: cover; /* Ensure the image fits without distortion */
+}

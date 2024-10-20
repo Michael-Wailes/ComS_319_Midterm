@@ -1,0 +1,61 @@
+header .navbar{
+    background-color: #161a1d !important;
+    color:#f5f3f4;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #dee2e6;
+    font-family:Georgia, 'Times New Roman', Times, serif; /* Change font */
+}
+
+#itemContainer 
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0;
+
+}
+#itemImage 
+{
+  max-height: 400px;
+  max-width: auto;
+  margin: 20px;
+  border: solid black 7px;   
+}
+#itemTitle 
+{
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#itemPrice 
+{
+  padding-top: 25px;
+  font-weight: bold;
+} 
+.itemDetail
+{
+  text-align: center;
+  font-size: 2em;
+  margin: 60px;
+}
+
+footer {
+    background-color: #161a1d; 
+    color: #f5f3f4; 
+}
+
+footer a {
+    color: #f5f3f4; 
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
+
+.mb-1 {
+    color: #f5f3f4;
+    text-decoration: underline;
+}
